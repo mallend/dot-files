@@ -1,0 +1,10 @@
+#!/bin/bash
+
+test="$(netstat -rn | grep tun)"
+
+if [ !$test ] 
+then
+	echo "d" > /home/mike/.vpnstatus
+else
+	echo "c" > /home/mike/.vpnstatus
+fi

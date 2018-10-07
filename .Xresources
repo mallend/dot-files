@@ -1,0 +1,15 @@
+! fonts {{{
+Xft.dpi:	192
+! }}}
+!
+! rofi {{{
+rofi.lines:		5
+rofi.font:		garuda 14 
+rofi.show-icons:	true
+rofi.dpi:		192
+rofi.fullscreen:	true
+! rofi.padding:		550
+! rofi.width:		600
+rofi.fake-transparency:	true
+rofi.fake-background:	background
+! }}}

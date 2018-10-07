@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ !$(nordvpn status | grep "You are connected") ]
+then
+	nordvpn c && /home/mike/.testvpn
+else 
+	nordvpn d && /home/mike/.testvpn
+fi
