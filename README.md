@@ -17,4 +17,6 @@ alias radio-991='mplayer -nocache -afm ffmpeg http://c4icyelb.prod.playlists.ihr
 
 alias radio-997='mplayer -nocache -afm ffmpeg http://ice8.securenetsystems.net/WOOF?&playSessionID=DAA4AE20-EC96-EE77-2C105B9B4121B314'
 
+alias radio-1005='mplayer -nocache -afm ffmpeg https://ice66.securenetsystems.net/WJRL'
+
 install rofi
