@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ $(cat /home/mike/.vpnstatus | grep c) ] 
+then
+	 status=''
+else
+	 status=''
+fi
+
+if [ "$status" == "" ]
+then
+	 echo "$status"
+	 echo "$status"
+	 echo "#bd5b37"
+else
+	 echo "$status"
+	 echo "$status"
+	 echo "#98FB98"
+fi
