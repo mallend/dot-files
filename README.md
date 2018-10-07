@@ -19,4 +19,6 @@ alias radio-997='mplayer -nocache -afm ffmpeg http://ice8.securenetsystems.net/W
 
 alias radio-1005='mplayer -nocache -afm ffmpeg https://ice66.securenetsystems.net/WJRL'
 
-install rofi
+install rofi, sublime
+
+install light (https://github.com/haikarainen/light)
